@@ -3,9 +3,9 @@ import Homepage from "./pages/Homepage";
 
 function App() {
   return (
-    <>
-      <Homepage />
-    </>
+    <div>
+      <Homepage className="bg-black h-[1vh]" />
+    </div>
   );
 }
 
