@@ -1,7 +1,11 @@
 import React from "react";
 
 const Feed = () => {
-  return <div className="feedwrapper"></div>;
+  return (
+    <div>
+      <div className="feedWrapper"></div>
+    </div>
+  );
 };
 
 export default Feed;
